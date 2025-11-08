@@ -1,0 +1,64 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+.bg-dark {
+    background-color: #10002b !important; 
+}
+
+.text-white-50 {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+
+.paragrafo-1 {
+    font-size: 1.15rem; 
+    font-family: "Poppins", sans-serif;
+    font-weight: 400; 
+    line-height: 1.6; 
+}
+
+.img-container-custom {
+    background-color: #10002b; 
+    border: 3px solid #18ff52; 
+    padding: 15px; 
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    min-height: 350px; 
+}
+
+.custom-image-style {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    border-radius: 8px; 
+}
+.placeholder-text-overlay {
+    position: absolute;
+    color: rgba(24, 255, 82, 0.5);
+    font-size: 1.5rem;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.card-custom {
+    border: 2px solid #18ff52 !important; 
+    background-color: #0b001a !important; 
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card-custom:hover {
+    transform: translateY(-8px); 
+    box-shadow: 0 15px 30px rgba(24, 255, 82, 0.6); 
+}
+
+.section-title-main {
+    color: #18ff52;
+    text-shadow: 0 0 15px rgba(24, 255, 82, 0.4);
+}
+
+.text-success {
+    color: #18ff52 !important;
+}
+
+.fa-4x, .fa-3x {
+    color: #18ff52;
+}
